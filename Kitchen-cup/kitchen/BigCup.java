@@ -4,13 +4,10 @@ package kitchen;
 public class BigCup extends Cup {
 /* HW2P4: Declară clasa BigCup - succesorul Cup, după aceleași principii ca și SmallCup
  suprascrieti doar setter-ul pentru volumul cu un interval de 0..1000 ml */
+ private static final int MAX_VOLUME = 1000;
 
- public void setLiquidVolume(int liquidVolume) {
-    if (liquidVolume >= 0 && liquidVolume <= 1000) {
-        super.liquidVolume = liquidVolume;
-    } else {
-   System.out.println("This cup is not compatible with this volume!");
-
-}
-}    
+    public BigCup() {
+        super();
+        this.maxVolume = MAX_VOLUME;
+    }
 }

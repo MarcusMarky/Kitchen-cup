@@ -10,8 +10,6 @@ public class Application {
     public static void main(String[] args) {
         
         Cup cupB = new Cup("Water", 500);
- 
-        //System.out.println("After pouring water: "+ cupB + " ml");
 
 //HW2P3: Creați 1 cana mică de ceai (200 ml) afișați informații despre aceasta!
 
